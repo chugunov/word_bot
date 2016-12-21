@@ -7,10 +7,13 @@ Search words inside letters matrix by vertical, horizontal and diagonal
 Get matrix:
 
 | в  | р  | о  | б | а  |
+|---|---|---|---|---|
 | о  | л  | т  | к | с  |
 | с  | у  | о  | т | к  |
 | н  | л  | о  | о | е  |
 | а  | х  | п  | к | л  |
+
+Run this commands:
 
 ```elixir
   iex> mix do deps.get, deps.compile
