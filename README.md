@@ -1,6 +1,7 @@
 # WordBot
 
-Search words inside letters matrix by vertical, horizontal and diagonal
+An application looking for words inside letters matrix by vertical, horizontal 
+and diagonal
 
 ## Usage
 
@@ -24,10 +25,10 @@ Run this commands:
    "колокол", "кокотка"]
 ```
 
-Returns a list of the longest words inside matrix.
+Returns a list of the longest words that found inside matrix. 
 Matrix size does not important.
 
 ## Config
 
-Replace `words.out` file by your dictionary file (any language dictionary)
-or append words to it.
+Replace `words.out` file by your dictionary file (any dictionary language) 
+or append words to the existing dict.
