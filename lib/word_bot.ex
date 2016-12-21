@@ -3,7 +3,7 @@ defmodule Mix.Tasks.WordBot do
 
   @words_file Application.get_env(:word_bot, :dict_path)
 
-  def run([letters]), do: run([letters, 50])
+  def run([letters]), do: run([letters, "50"])
   def run([letters, top_size]) do
     words = File.read!(@words_file) |> String.split("\r\n")
     {word_matrix, _acc} = parse_to_matrix(letters)
