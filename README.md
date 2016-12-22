@@ -5,7 +5,7 @@ and diagonal
 
 ## Usage
 
-Get matrix:
+Have a matrix 5x5, that consist of letters:
 
 | в  | р  | о  | б | а  |
 |---|---|---|---|---|
